@@ -2,6 +2,7 @@
 
 . "$(dirname "$(readlink -e "$0")")/config"
 . "$(dirname "$(readlink -e "$0")")/db-functions"
+. "$(dirname "$(readlink -e "$0")")/cc-figures"
 
 if (( $# >= 1 )); then
 	warning "Calling %s with a specific repository is no longer supported" "${0##*/}"
