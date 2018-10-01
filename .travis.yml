@@ -1,9 +1,10 @@
 sudo: required
 
-language: bash
+language: sh
 
 services:
   - docker
+  - kubernetes
 
 script:
   - make test
